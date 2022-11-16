@@ -2,7 +2,8 @@
   "name": "mealie-client-ts",
   "version": "0.0.1",
   "description": "Generated using https://github.com/OpenAPITools/openapi-generator#15---homebrew",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean",
@@ -18,7 +19,6 @@
     "axios": "^1.1.3"
   },
   "files": [
-    "dist",
-    "index.js"
+    "dist"
   ]
 }
