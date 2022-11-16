@@ -9,6 +9,8 @@
  * https://openapi-generator.tech
  * Do not edit the class manually.
  */
+import type * as Types from './models';
 export * from "./apis";
 export * from "./common/configuration";
+export { Types };
 //# sourceMappingURL=index.d.ts.map
